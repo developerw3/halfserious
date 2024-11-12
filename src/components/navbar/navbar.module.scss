@@ -1,0 +1,33 @@
+.navbarLink {
+	color: #ffffff;
+	font-weight: lighter;
+	font-size: 15pt;
+	margin: 0;
+	padding: 0 20px;
+	height: 80px;
+
+	svg {
+		height: 80px;
+		float: left;
+		margin-right: 10px;
+		padding: 0;
+	}
+
+	div {
+		float: left;
+		height: 80px;
+		line-height: 80px;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+
+	&:hover {
+		color: var(--mdb-primary-rgb);
+		background: #ffffff;
+
+		svg {
+			fill: #3b71ca;
+		}
+	}
+}
